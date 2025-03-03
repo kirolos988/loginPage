@@ -69,7 +69,7 @@ export default function Home() {
         });
         setMessage("Login successful");
         await getUserInfo();
-        router.push("/profile");
+        router.push("/dashboard");
       } else {
         setMessage("Invalid Email or Password");
       }

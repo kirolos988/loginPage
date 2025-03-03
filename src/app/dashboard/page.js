@@ -4,7 +4,7 @@ import React from "react";
 import useUserStore from "../../../store/userStore";
 import { useRouter } from "next/navigation";
 
-const Profile = () => {
+const Dashboard = () => {
   const { userInfo, clearUserInfo } = useUserStore();
   const router = useRouter();
 
@@ -34,4 +34,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default Dashboard;
